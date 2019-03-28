@@ -1,0 +1,23 @@
+#p_title{
+    text-align: center;
+}
+
+.box1{
+    display: inline-block;
+    border: 1px solid gray;
+    border-style: none;
+    width: 260px;
+    height: 400px;
+    text-align: center;
+    margin: 20px 7px 15px 7px;
+    padding: 0 0 0 0;
+    box-shadow: 3px 2px 10px #b6b8ba;
+}
+
+
+
+
+
+
+
+

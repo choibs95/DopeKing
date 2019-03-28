@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+    
+    <mapper namespace="com.java.pizza_board.dao.IDao">
+    
+     <insert id="MemberJoin">
+    	INSERT INTO DKUSER(userID,userPassword,userName,userBirthday,userGender,userphone,userAddress,userEmail,userDate) 
+    	VALUES(#{param1},#{param2},#{param3},#{param4},#{param5},#{param6},#{param7},#{param8},SYSDATE)
+    </insert>
+    
+     <insert id="CartAdd">
+    	INSERT INTO cart_board(picture_url,cId,cName,sPrice,cPrice,cQuantity) 
+    	VALUES(#{param1},cart_board_seq.nextval,#{param2},#{param3},#{param4},#{param5})
+    </insert>
+    
+    <select id="totalcartview" resultType="com.java.pizza_board.dto.CartDto">
+   SELECT * FROM CART_BOARD
+    
+    </select>
+    
+    <delete id="CartDelete">
+    	DELETE FROM CART_BOARD
+    </delete>
+    
+    <select id="login" resultType="com.java.pizza_board.dto.DkUserDto">
+    	SELECT userID,userPassword FROM DKUSER WHERE userID=#{param1}
+    </select>
+    
+    
+	<select id="list" resultType="com.java.pizza_board.dto.PDto">
+		SELECT PID, PNAME, LPRICE, RPRICE, PICTURE_URL FROM PIZZA_BOARD
+	</select>
+	
+	<select id="side" resultType="com.java.pizza_board.dto.SDto">
+		SELECT SID, SNAME, SPRICE, PICTURE_URL FROM SIDE_BOARD
+	</select>
+	  <select id="idCheck" resultType="com.java.pizza_board.dto.DkUserDto">
+    	SELECT JFID FROM DKUSER
+    </select>
+    <select id="memberView" resultType="com.java.pizza_board.dto.DkUserDto">
+    	SELECT * FROM DKUSER WHERE userID=#{param1}
+    </select>
+    <select id="totalMemberView" resultType="com.java.pizza_board.dto.DkUserDto">
+    	SELECT * FROM DKUSER
+    </select>
+    <update id="memberModify">
+    	UPDATE DKUSER SET USERADDRESS=#{param2},USERPHONE=#{param3} WHERE UERSID=#{param1}
+    </update>
+    <delete id="memberDelete">
+    	DELETE FROM DKUSER WHERE userID=#{param1}
+    </delete>
+     <select id="membercontentView" resultType="com.java.pizza_board.dto.DkUserDto">
+    	SELECT * FROM DKUSER Where userId=#{param1}
+    </select>
+    <select id="user_p_detail" resultType="com.java.pizza_board.dto.ADDto">
+ 	SELECT * from pizza_board where pId=#{param1}
+ 	</select>
+ 	
+</mapper>   
+    

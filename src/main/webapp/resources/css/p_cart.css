@@ -1,0 +1,43 @@
+#cart-input{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding:55px 0  65px 0;
+    margin: 100px 20px 100px 20px;
+    
+}
+#cart-table{
+     margin: 0 0 0 70px;
+}
+#tt{
+    font-size: 18px;  
+}
+
+.imgs{
+    text-align: left;
+}
+#text{
+    display: inline-block;  
+}
+
+#quantity{
+    width: 75px;
+    height: 18px;
+}
+
+caption{
+    caption-side: bottom;
+    text-align: right;
+    margin: 30px 30px 20px 0;
+    font-size: 25px;
+    font-family: monospace;
+    color: crimson;
+    
+}
+
+
+
+#buy,#reset{
+    width: 150px;
+    height: 30px;
+    
+}

@@ -1,0 +1,32 @@
+#top_icon{
+    padding:55px 0  65px 50;
+    margin: 10px 0 10px 530px;
+}
+
+#login-input{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding:55px 0  65px 0;
+    margin: 0 150px 100px 150px ;
+    
+}
+#useID,#password,#name,#email,#birthday,#tel{
+    width: 200px;
+    height: 25px;
+}
+#add1{
+    width: 120px;
+    height: 25px; 
+    
+}
+#add2{
+    width: 80px;
+    height: 25px; 
+    
+}
+
+#j_button,#l_button{
+    width: 150px;
+    height: 30px;
+    
+}

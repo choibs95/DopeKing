@@ -1,0 +1,210 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  color: #555;
+}
+
+/* ----------------------------09 Images */
+
+body {
+  margin: 0;
+  padding: 0;
+    background-color: ghostwhite;
+}
+
+/*맨위 상단 줄*/
+#wrap{
+/*    width: 1920px;*/
+    text-align: left;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 0 0 0 12em;
+}
+#join_form{
+   margin-left :300px; 
+   margin-right :auto;
+   
+   
+}
+
+table, th, td{
+   
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 5px 40px 0 40px;
+    margin: 0;
+    background-color: white;
+    
+    
+}
+#aa{
+    width: 290px;
+    height: 160px;
+    /*padding: 0px;*/
+    /*margin: 0 40px 0 0;*/  
+}
+#bb,#cc{
+    /*padding: 20px 50px 50px 50px; */ 
+ }
+#ff{
+    
+    background-color: gainsboro
+}
+#login_form{
+   /*  width:450px;
+    position:relative;
+    margin-left:50%;
+    left:225px; */
+    margin: 0 0 10px 0;
+   
+   margin-left: auto;
+   margin-righy: auto;
+   
+   text-aline:center;
+   
+
+}
+
+/*로그인/회원가입*/
+
+
+/*
+main {
+  padding: 4em 1em;
+}*/
+
+header {
+/*  background-color: #263d36;*/
+/*  background-image: url("../image/H4.jpg");*/
+/*  background-position: center top;*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: auto;*/
+  line-height: 1.2;
+  max-width: none;
+    
+/*  padding: 10vw 2em;*/
+/*  text-align: center;*/
+}
+
+
+/*상단메뉴 첫번째 네모 위치조정*/
+/*#mainlogo{
+    position: fixed;
+    top: 0;
+    left: 175px;
+    width: 250px;
+    height: 170px;
+    
+    
+}*/
+
+
+/*상단메뉴*/
+#menu{
+    border: 1px solid ghostwhite;
+    text-align: left;
+    margin: 0 ;
+    padding: 21px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #af1c1c;
+    /*background-repeat: repeat-y;*/
+    min-height: 48px;
+}
+#menu ul{
+    list-style: none;
+    text-align: center;  
+}
+#menu ul li{
+    display: inline;
+    padding: 0 3em;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-family: HYHeadLine;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#menu ul li a:hover{
+    background-image: url(../image/blue.gif);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 8px; 
+}
+
+main {
+  margin: 0 auto;
+  max-width: 69.6em;
+}
+#banner1,#banner2{
+    display: inline;
+}
+#banner1{
+    margin: 0 15px 0 0;
+}
+#join_form2{
+   padding-left: 25%;
+}
+
+footer {
+    border: 1px solid;
+    border-style: none;
+    background-color: #af1c1c;
+    height: 220px;
+    text-align: center;
+    /*color: dimgray;*/
+   /* margin: -20px 0 0 0;*/
+}
+.inner li{
+    display: inline;
+}
+.foot_sns{
+    margin: 2em 65em 0 4.7em;
+    padding: 20px;   
+    
+}
+.facebook{
+    padding: 0 12px 0 0;
+}
+.twitter{
+    padding: 0 12px 0 0;
+}
+/*아래 글씨*/
+.foot_menu{
+    margin: 0 35em 1em 4.5em;
+    /*padding: 20px; */   
+    color: white;
+    font-size: 14.2px;
+    font-family: HY신명조;
+    list-style: none;
+}
+.foot_info{
+    /*margin: 1em 37em 0 5em;*/
+    text-align: left;
+    color: rosybrown;
+    font-size: 12.5px;
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 10px 300px 0 53px;
+}
+
+
+/*.foot_sns,
+.foot_menu{
+    float: left;
+}*/
+
+
+
+
+
+
+

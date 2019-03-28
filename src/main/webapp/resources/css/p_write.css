@@ -1,0 +1,39 @@
+#top_icon{
+    padding:55px 0  65px 50;
+    margin: 10px 0 10px 530px;
+}
+#product{
+    text-align: center;
+    padding:55px 0  65px 50;
+    margin: 0 0 100px 270px;
+}
+#product th{
+    width: 120px;
+    height: 45px;
+    text-align: center;    
+}
+.pr{
+    width: 260px;
+    height: 25px;
+}
+#pr2{
+    width: 260px;
+    height: 150px;
+}
+#product td{
+    width: 300px;
+}
+#file{
+    text-align: left;
+    padding: 0 0 0 58px;
+}
+
+caption{
+    caption-side: bottom;  
+}
+
+#j_button{
+    width: 100px;
+    height: 30px;
+}
+

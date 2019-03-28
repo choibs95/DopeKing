@@ -1,0 +1,63 @@
+-- 장바구니 table
+
+create table cart_board(
+picture_url varchar2(200), 
+cId varchar2(50) not null,
+cName varchar2(50) not null,
+cPrice number default 0,
+cQuantity number default 0,
+);
+select * from cart;
+
+insert into cart values('kim','쉬림프',20000,1);
+
+
+select * from cart where userid='kim';
+
+
+
+--피자 리스트 테이블
+create table pizza_board(
+pId number(4) primary key,      --상품번호
+pName varchar2(50),             --상품명
+Lprice number default 0,        --Large사이즈 피자가격 
+Rprice number default 0,        --Regular사이즈 피자가격 
+PQuantity number default 0,     --수량
+extPrice number default 0,      --총금액
+pContent varchar2(2000),        --상품내용
+picture_url varchar2(500)       --사진파일 업로드    
+);
+
+
+create sequence pizza_board_seq;     --상품번호 시퀀스
+
+
+
+
+--유저테이블 
+CREATE table dkuser(
+userID varchar2(50)  primary key,
+userPassword varchar2(50),
+userName varchar2(50),
+userBirthday varchar2(100),
+userGender varchar2(50),
+userphone varchar2(50),
+userAddress varchar2(50),
+userEmail varchar2(50),
+userDate varchar2(100));
+
+
+--게시판 
+create table pi_board(
+pId number(4) primary key,
+pName varchar2(20),
+pTitle varchar2(100),
+pContent varchar2(300),
+pDate date default sysdate,
+pHit number(4) default 0,
+pGroup number(4),
+pStep number(4),
+pIndent number(4));
+
+insert into pi_board(pId, pName, ptitle, pContent, pHit, pGroup, pStep, pIndent)
+values(pi_board_seq.nextval,'가맹점관련','가맹계약후 오픈 까지 기간은 얼마나 걸리나요?','가맹계약이 후 오픈 까지는 인테리어공사 3주~4주 및 오픈 할 매장에서의 교육 2주를 포함하여 5주~6주 정도 소요됩니다.',0,pi_board_seq.currval,0,0);

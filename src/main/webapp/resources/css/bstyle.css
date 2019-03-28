@@ -1,0 +1,94 @@
+#title{
+	text-align: center;
+}
+
+table.board{
+	margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+table.board thead th{
+	background-color: #af1c1c;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+    border-bottom: 1px solid #ccc;
+}
+table.board tbody th{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    
+}
+table.board td{
+    width: 650px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    font-style: none;
+}
+table.write{
+	margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+}
+
+table.write thead th{
+	background-color: #af1c1c;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+    
+}
+table.write tbody th{
+	background-color: #af1c1c;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+    
+}
+
+table.write td{
+    width: 650px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+table.view{
+	margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+}
+
+table.view thead th{
+	background-color: #af1c1c;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+    
+}
+table.view tbody th{
+	background-color: #af1c1c;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: white;
+    
+}
+
+table.view td{
+    width: 650px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
